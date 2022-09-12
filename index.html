@@ -17,15 +17,16 @@
             <label>Enter your email: <input type="email" required/></label>
             <label>Enter your password: <input type="password" pattern="[a-z0-5]{8}" required/></label>
         </fieldset>
-
+        <!-- Radio for choosing either personal or business account and a checkbox for the terms and conditions -->
         <fieldset>
             <label><input type="radio" name="account-type">Personal Account</label>
             <label><input type="radio" name="account-type">Business Account</label>
             <label><input type="checkbox" required>I accept the <a href="#">terms and conditions.</a></label>
         </fieldset>
-
+        <!-- Fieldset for letting the user upload a profile picture -->
         <fieldset>
             <label>Upload a profile picture: <input type="file"></label>
+            <label>Input your age (years): <input type="number" min="13" max="120"></input></label>
         </fieldset>
         <input type="submit" value="submit">
     </form>
