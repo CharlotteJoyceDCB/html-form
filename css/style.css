@@ -18,6 +18,7 @@ form{
     max-width: 500px;
     min-width: 300px;
     width: 60vw;
+    padding-bottom: 2em;
 }
 
 fieldset{
@@ -64,6 +65,6 @@ input[type="submit"]{
     margin: 1em auto;
 }
 
-input [type="file"]{
+input[type="file"]{
     padding: 5px 2px;
 }
