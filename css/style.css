@@ -35,6 +35,13 @@ input, textarea, select{
     margin: 10px 0 0;
 }
 
+input, textarea{
+    background-color: rgba(221, 191, 155, 0.229);
+    border: 1px solid rgba(197, 170, 134, 0.833);
+    color: darkgreen;
+    min-height: 2em;
+}
+
 label{
     display: block;
     margin: 0.5rem 0;
